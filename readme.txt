@@ -10,4 +10,4 @@ Connect to your instance using its Public DNS:
 
 Example:
 
- ssh -i "my-test-ec2.pem" ubuntu@ec2-13-127-122-181.ap-south-1.compute.amazonaws.com
+ssh -i "my-test-ec2.pem" ubuntu@ec2-3-110-106-116.ap-south-1.compute.amazonaws.com

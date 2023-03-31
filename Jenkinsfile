@@ -1,6 +1,8 @@
-pipeline{
+pipeline
+{
     agent:any
-    stages  {
+    stages  
+    {
 
         stage("Creating virtual  environment for App"){
                 
@@ -24,9 +26,11 @@ pipeline{
         
         }
 
-        stage("Setup Nginx Webserver"){
+        stage("Setup Nginx Webserver")
+        {
                 
-            steps{
+            steps
+            {
                 sh '''
                 chmod +x nginx.sh
                 ./nginx.sh
@@ -34,8 +38,7 @@ pipeline{
             }
         
 
-
-
-
+        
+        }
     }
 }
