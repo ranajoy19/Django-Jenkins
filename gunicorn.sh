@@ -1,7 +1,6 @@
 #!/bin/bash 
 source env/bin/activate
 
-pip3 install -r requirements.txt
 
 cd /var/lib/jenkins/workspace/django-cicd/app
 
