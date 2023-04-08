@@ -14,12 +14,12 @@ pipeline{
         }    
         
 
-        stage("Setup Gunicore"){
+        stage("Setup Gunicorn"){
                 
             steps{
                 sh '''
                 chmod +x gunicorn.sh
-                ./gunicore.sh
+                ./gunicorn.sh
                 '''
             }
         
